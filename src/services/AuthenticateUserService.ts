@@ -32,6 +32,7 @@ class AuthenticateUserService {
             subject : user.id,
             expiresIn: "1d"
         });
+        return token;
     }
 }
 
